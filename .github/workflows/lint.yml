@@ -20,5 +20,6 @@ jobs:
           override: true
       - uses: actions-rs/clippy-check@v1
         with:
+          token: ${{ secrets.TOKEN}}
           args: --all-features
           name: Clippy Output
