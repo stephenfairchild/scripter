@@ -1,5 +1,5 @@
 fn main() {
-    println!("Hello scripter!");
+    rintln!("Hello scripter!");
 }
 
 #[cfg(test)]
